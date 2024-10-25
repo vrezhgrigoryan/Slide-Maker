@@ -1,0 +1,12 @@
+﻿  Command.cpp
+  Console.cpp
+  Elemets.cpp
+  SemanticAn.cpp
+  Slide.cpp
+  SlidesContainer.cpp
+  main.cpp
+  Создание кода...
+C:\Users\LILIT\source\repos\slide\slide\SemanticAn.cpp(16): warning C4715: Semantic::isint: значение возвращается не при всех путях выполнения
+C:\Users\LILIT\source\repos\slide\slide\SemanticAn.cpp(38): warning C4715: Semantic::makeCommand: значение возвращается не при всех путях выполнения
+Slide.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl IElement::print(class std::basic_ostream<char,struct std::char_traits<char> > &)" (?print@IElement@@QEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z) в функции "public: virtual void __cdecl Slide::showAllElements(class std::basic_ostream<char,struct std::char_traits<char> > &)" (?showAllElements@Slide@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z).
+C:\Users\LILIT\source\repos\slide\x64\Debug\slide.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
